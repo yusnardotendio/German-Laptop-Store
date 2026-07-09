@@ -1,0 +1,5 @@
+{
+  "name": "WebContainer Sandboxed Dev Workspace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "features": {}
+}

@@ -1,0 +1,37 @@
+{
+  "abstraction": {
+    "design_system_summary": "A clean, professional design system utilizing a neutral color palette with a strong primary blue accent. Typography relies on a system-ui sans-serif stack for readability. Spacing follows a 4px/8px base scale. Surfaces utilize subtle borders and soft shadows to create depth, with a focus on high-contrast text and interactive hover states.",
+    "component_taxonomy": [
+      "Header: Sticky container with logo, nav-links, and auth-cta",
+      "Hero: Full-width section with centered typography and call-to-action",
+      "ProductCard: Surface component with image placeholder, title, price, and hover-shadow effect",
+      "ProductGrid: Responsive container using CSS grid with auto-fit/fill logic",
+      "Footer: Multi-column layout for institutional links and copyright",
+      "Button: Primary/Secondary variants with hover state transitions"
+    ],
+    "information_architecture": [
+      "Root: Main layout wrapper with sticky header",
+      "Home: Hero section followed by ProductGrid",
+      "Auth: Modal or separate route for Login Access"
+    ],
+    "interaction_model": [
+      "Header: Sticky scroll behavior with backdrop-blur",
+      "ProductCard: Scale or shadow-depth increase on hover",
+      "Navigation: Smooth scroll or route transition",
+      "Auth: Toggle state for login modal visibility"
+    ],
+    "reproduction_scope": "style_structure",
+    "supported_scope_notes": [
+      "Use CSS Grid for responsive layout to avoid heavy dependency on external UI libraries",
+      "Implement sticky header using position: sticky and z-index management",
+      "Ensure color tokens are defined as CSS variables for easy theme adjustment"
+    ],
+    "generation_priorities": [
+      "Define CSS variables for colors, spacing, and typography",
+      "Construct the global layout wrapper with sticky header",
+      "Build the responsive ProductGrid component",
+      "Implement the ProductCard component with hover states",
+      "Assemble the Hero and Footer sections"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# task-dag.yaml
+tasks:
+  - id: "T1"
+    name: "Install standard dependencies"
+    dependencies: []
+  - id: "T2"
+    name: "Build React components"
+    dependencies: ["T1"]
+  - id: "T3"
+    name: "Compile workspace files"
+    dependencies: ["T2"]

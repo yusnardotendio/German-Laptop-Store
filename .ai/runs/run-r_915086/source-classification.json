@@ -1,0 +1,10 @@
+{
+  "source_mode": "text",
+  "site_type": "unknown",
+  "supportability": "supported",
+  "recommended_scope": "style_only",
+  "confidence": "medium",
+  "notes": [
+    "Fidelity target defaults to visual style attributes."
+  ]
+}

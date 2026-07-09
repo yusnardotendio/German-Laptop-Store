@@ -1,0 +1,10 @@
+{
+  "adr_entries": [
+    {
+      "id": "ADR-001",
+      "title": "Pinned WebContainer Dependencies",
+      "status": "Accepted",
+      "decisions": "To preserve execution stability inside browser sandbox environments, all package dependencies must be exact versions."
+    }
+  ]
+}

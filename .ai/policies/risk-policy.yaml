@@ -1,0 +1,4 @@
+# risk-policy.yaml
+allow_external_shell_execution: false
+prohibit_local_filesystem_escapes: true
+sandbox_isolation_enforced: true

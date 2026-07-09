@@ -1,0 +1,6 @@
+# unsupported-cases.yaml
+prohibited_actions:
+  - "install_external_packages"
+  - "modify_database_drivers"
+  - "call_unauthorized_payment_api"
+  - "initiate_server_side_message_bus"

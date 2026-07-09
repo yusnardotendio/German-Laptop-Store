@@ -1,0 +1,16 @@
+{
+  "smoke_test_suite": {
+    "name": "Vite React Compiles Check",
+    "command": "npm run build",
+    "expected_exit_code": 0
+  },
+  "assertion_suites": [
+    {
+      "target": "App.tsx",
+      "contains": [
+        "useState",
+        "lucide-react"
+      ]
+    }
+  ]
+}

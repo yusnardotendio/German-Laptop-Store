@@ -1,0 +1,4 @@
+# dependency-policy.yaml
+strict_pinning: true
+prevent_floating_ranges: true
+allowed_version_decorators: [] # Strict matching only

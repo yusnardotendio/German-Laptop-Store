@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RunManifestSchema",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "parent_run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timestamp": {
+      "type": "integer"
+    },
+    "steps_processed": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "run_id",
+    "timestamp"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "SPDXID": "SPDXRef-Document",
+  "spdxVersion": "SPDX-2.3",
+  "name": "German Laptop Store",
+  "documentNamespace": "http://spdx.org/spdxdocs/german-laptop-store-state-sbom",
+  "creationInfo": {
+    "creators": [
+      "Tool: AISD Core Generation Engine"
+    ],
+    "created": "2026-06-29T14:47:00Z"
+  },
+  "packages": [
+    {
+      "name": "react",
+      "versionInfo": "18.2.0"
+    },
+    {
+      "name": "react-dom",
+      "versionInfo": "18.2.0"
+    },
+    {
+      "name": "vite",
+      "versionInfo": "4.4.0"
+    }
+  ]
+}

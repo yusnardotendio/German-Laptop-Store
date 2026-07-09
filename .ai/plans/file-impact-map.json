@@ -1,0 +1,12 @@
+{
+  "allowed_modification_set": [
+    "src/App.tsx",
+    "src/components/",
+    "app_state.json"
+  ],
+  "exclusion_list": [
+    ".ai/",
+    "package.json",
+    "vite.config.ts"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "dataModels": {
+    "note": "scope mode is set to \"design only\"; focus is on visual structure rather than backend logic.*"
+  },
+  "stateStructure": "SingleStoreState"
+}

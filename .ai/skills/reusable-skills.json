@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "id": "fix-type-errors",
+      "description": "Standard procedure to correct TypeScript typing boundaries on active state arrays.",
+      "steps": [
+        "Scan state interface keys",
+        "Cast undefined results to safe fallbacks"
+      ]
+    },
+    {
+      "id": "apply-design-tokens",
+      "description": "Applies utility styling parameters matching design guidelines.",
+      "steps": [
+        "Apply indigo to gradient backgrounds",
+        "Add border-white/10 to translucent cards"
+      ]
+    }
+  ]
+}
